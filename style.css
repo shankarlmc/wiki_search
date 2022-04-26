@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    border: 2px solid #dadada;
+    border-left: 0;
+    border-right: 0;
+    height: 200px;
+    position: relative;
+    top: 100px;
+}
+.compare-terms {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding:30px;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border-left: 2px solid #f1f1f1;
+    border-right: 2px solid #f1f1f1;
+}
+.term {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-left: 2px solid #f1f1f1;
+    border-right: 2px solid #f1f1f1;
+    height: 200px;
+    min-width: 200px;
+    max-width: 400px;
+    margin: 0 20px 0 0;
+    padding: 0 20px;
+    font-size: 25px;
+}
+/* hide border of input tag */
+.compare-terms .term input {
+    font-size: 25px;
+    background-color: none;
+    border: 0;
+    padding: 10px;
+    width: 95%;
+}
+.compare-terms .term input:focus {
+    border: 0;
+    outline: none;
+}
+.result-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+    width: 99%;
+    margin: auto;
+}
+.results {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+}
+.result {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-right: 2px solid rgb(212, 209, 209);
+}
+.result a {
+    padding: 0 20px;
+    font-size: 25px;
+    color: #3114b4;
+}
+.result a:hover {
+    font-size: 24px;
+    color: red;
+}
